@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="text.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <div class="flex mx-auto bg-slate-100 flex-col mt-20 w-[500px] h-[500px] rounded-lg">
+
+    <h1 class="font-bold text-center text-3xl mt-20">Todo List</h1>
+
+     <div class="flex-col">
+      <input type="text" placeholder="Type here" id="input-text" class="mt-20 w-60 h-[43px] ml-5 rounded-lg pl-4 border border-gray-300 focus:border-transparent outline-none">
+      <button class=" bg-violet-700 rounded-lg text-slate-100 w-14 h-[43px] mt-20 font-bold " onclick="AddTask()">Add</button>
+     </div>
+      <ul id="add-text" >
+        <!-- <li class="checked">Do code</li>
+        <li>Do code</li>
+        <li>Do code</li> -->
+      </ul>
+
+
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
